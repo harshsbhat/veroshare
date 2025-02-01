@@ -15,7 +15,7 @@ export default function Page() {
         <p className="text-gray-700 text-lg leading-relaxed mb-12">
           Host and track videos seamlessly. Share securely with full control. Your #1 open-source alternative to Wistia & Vimeo.
         </p>
-        <Button className="w-1/4 rounded-xl flex items-center justify-center space-x-2"
+        <Button className="rounded-xl"
               onClick={() => {
                 toast({
                   title: "You really thought we had a waitlist? ",
