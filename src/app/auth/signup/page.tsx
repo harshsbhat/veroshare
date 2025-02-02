@@ -14,7 +14,7 @@ export default function LoginPage() {
         <div className="hidden lg:flex flex-1 lg:border-l lg:border-zinc-500 lg:pl-12">
           <div className="space-y-6 max-w-lg">
             <blockquote className="text-4xl font-light leading-relaxed bg-gradient-to-r from-zinc-800 to-zinc-500 bg-clip-text text-transparent">
-             VeroShare: Open source video hosting and tracking platform.
+             Axova: Open source video hosting and tracking platform.
             </blockquote>
           </div>
         </div>
