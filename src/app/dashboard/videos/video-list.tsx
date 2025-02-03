@@ -38,7 +38,7 @@ export function VideoDashboard({ videos }: VideoDashboardProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {videos.map((video) => (
             <div key={video.id} className="bg-white shadow rounded-lg overflow-hidden">
-              <img src={video.thumbnail || "/placeholder.svg"} alt={video.title} className="w-full h-48 object-cover" />
+             <></>
               <div className="p-4">
                 <h3 className="font-semibold text-lg mb-2">{video.title}</h3>
               </div>

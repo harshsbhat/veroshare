@@ -12,7 +12,7 @@ export async function middleware(req: NextRequest) {
     new URL(`${hankoApiUrl}/.well-known/jwks.json`)
   );
   try {
-    const _verifiedJWT = await jwtVerify(hanko ?? "", JWKS);    
+    await jwtVerify(hanko ?? "", JWKS);    
   } catch(error) {
     console.error(error)
     return NextResponse.redirect(new URL("/auth/signup", req.url));
